@@ -1,0 +1,127 @@
+body{
+    margin-top:50px;
+    background:#efefef;
+}
+.bs-docs-nav {
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0;
+}
+.nav-logo{
+    margin-top: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.jumbotron{
+    /*background-image: url("/OpenCVGUI/img/home_bg_head.png");*/
+    /*background-image:  url("/OpenCVGUI/img/home_bg_head.png"), linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+    background-image:  linear-gradient(141deg, #2d2d2d 0%, #232323 75%);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.jumbotron h1{
+    color:#fff;
+    font-size:46px;
+}
+.jumbotron p{
+    color: #ddd;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.green{
+    color:green;
+}
+
+.nav-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: left;
+    background-color: #2a2730;
+}
+.sitemap a{
+    color:#fff;
+    padding-right:10px;
+}
+img[alt="screenshot"]
+{
+    width:400px;
+}
+.navbar-static-top{
+    top:0;
+  position:fixed;
+    width:100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.navbar{
+    background: #222;
+    border-top: 4px solid #9933bb;
+}
+.navbar a{
+    color: #fff;
+}
+.navbar a:hover{
+    color: #333;
+}
+.inner-content{
+    padding-right: 30px;
+}
+
+.navbar-brand:hover{
+    color:#fff !important;
+}
+.documentationContent h1{
+    background: #555;
+    padding:10px;
+    margin-top:20px;
+    color:#fff;
+    border-radius: 5px;
+    padding-top:80px;
+}
+.documentationContent h1 code{
+    background-color: transparent !important;
+    color:#fff !important;
+    padding: 0px !important;
+    font-size: 100% !important;
+}
+.documentationContent h2{
+    border-bottom: 1px solid #ccc;
+}
+.documentationContent h3{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+100&0.65+0,0.67+50,0+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.10) 0%, rgba(0,0,0,0.10) 70%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.10) 0%,rgba(0,0,0,0.10) 70%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.10) 0%,rgba(0,0,0,0.10) 70%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 5px;
+    padding:10px;
+
+}
+
+.nav-docs{
+    position:fixed;
+}
+
+.nav-docs h3{
+    background: transparent;
+    padding:0px;
+}
+
+.documentationContent h5{
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f9f2f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
